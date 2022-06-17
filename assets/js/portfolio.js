@@ -167,7 +167,7 @@ function displayProjectDescriptionPopup(value) {
                                    <div class="popup-header">
                                        <div class="popup-title">
                                            <div class="topic">
-                                               <h1>${projects[value].name}</h1>
+                                               <h1 class="project_title">${projects[value].name}</h1>
                                                <span class="close-popup">&times;</span>
                                            </div>
                                            <ul>
@@ -198,7 +198,8 @@ function displayProjectDescriptionPopup(value) {
                                                    </ul>
                                                </div>
                                                <div class="tags-buttons">
-                                                   <a href="${projects[value].linkLive}" class="btn-see-project">See live <i class="fa fa-rss"></i></a>
+                                                   <a href="${projects[value].linkLive}" class="btn-see-project icon">See live<img  src="/assets/images/icon.png  "
+                                                   /></a> 
                                                    <a href="${projects[value].linkSource}" class="btn-see-project">See source <i class="fa fa-github"></i></a>
                                                </div>
                                            </div>
