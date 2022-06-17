@@ -148,8 +148,26 @@ body {
   display: none;
 }
 
+.icon {
+  width: 108px;
+  height: 30px;
+  margin: 4px;
+  gap: 7px;
+}
+.tags-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+}
+
 .img-style-desktop {
   display: none;
+}
+
+.project_title {
+  color: #172b4d;
 }
 
 .works {
