@@ -285,6 +285,13 @@ body {
   font-size: 17px;
 }
 
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+}
+
 .btn-see-project:disabled {
   font-weight: 300;
   font-size: 17px;
@@ -710,8 +717,18 @@ a.btn-see-resume:active {
 }
 
 .tags-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
   border-top: 1px solid rgb(236, 234, 234);
   padding-top: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .popup_see_btn {
