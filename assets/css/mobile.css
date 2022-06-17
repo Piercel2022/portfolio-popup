@@ -154,7 +154,8 @@ body {
   margin: 4px;
   gap: 7px;
 }
-.tags-buttons{
+
+.tags-buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
