@@ -11,7 +11,19 @@
   display: block;
 }
 
+.icon {
+  display: flex;
+  width: 124px;
+  height: 44px;
+}
+
+.icon:active {
+  color: #396df2;
+  background: #fff;
+}
+
 .btn-see-project {
+
   border: 1px solid #396df2;
   padding: 7px;
   border-radius: 8px;
@@ -19,7 +31,6 @@
   font-weight: 300;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
-  transition-duration: 0.4s;
 }
 
 a.btn-see-project {
@@ -242,11 +253,6 @@ a.btn-see-resume:active {
 
 .description-text {
   color: #5e6c84;
-}
-
-.tags-buttons {
-  border-top: 1px solid rgb(236, 234, 234);
-  padding-top: 20px;
 }
 
 .popup_see_btn {
