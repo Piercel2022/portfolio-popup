@@ -185,7 +185,7 @@
     "hosted-git-info": "^5.0.0",
     "hard-rejection": "^2.1.0",
     "html-tags": "^3.2.0",
-    "http-cache-semantics": "^4.1.0",
+    "http-cache-semantics": "^4.1.1",
     "htmlparser2": "^3.10.1",
     "http-proxy-agent": "^5.0.0",
     "https-proxy-agent": "^5.0.1",
